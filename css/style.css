@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(at center top, white, #ada6a0) no-repeat;
+}
+.shadow{
+    box-shadow: 0 0 5px black;
+}
+.menu{
+    background: white;
+    height: 54px;
+    z-index: 1;
+}
+#search{
+    width: 50%;
+    padding-left: 15px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #e2e2e2;
+    margin-top: 11px;
+    color: #a8a8a8;
+    background: #fafafa;
+    float: right;
+    font-style: italic;
+}
+#search:focus{
+    outline: none;
+}
+#link{
+    position: absolute;
+    top: 17px;
+    right: 25px;
+    color: #a8a8a8;
+    outline: none;
+}
+.navbar{
+    margin-top: 1px;
+    background: white;
+    border-color: white;
+    height: 53px;
+}
+#menu ul li a{
+    color: #8e8e8e;
+    font-size: 17px;
+    background: white;
+}
+#menu ul li a:hover{
+    color: black;
+}
+#button{
+    background-color: #a8a8a8;
+    border-color: #a8a8a8;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: #bbb9b7;
+    font-family: Geneva, sans-serif;
+}
+#mycarousel{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 15px solid white;
+}
+.height{
+    
+    width: 95%;
+}
+.pad{
+    padding: 0;
+    
+}
+.pr{
+    padding-right: 1px;
+}
+.thumbnail{
+    border-radius: 0;
+}
+.thumbnail_img{
+    width: 100%;
+    padding: 10px;
+}
+.caption p{
+    text-indent: 2em;
+    
+}
+.a{
+    float: right;
+}
+.welcome{
+    background: white;
+}
+.welcome img{
+    padding: 10px 15px 10px 0;
+    float: left;
+}
+.caption h3{
+    margin: 0;
+    padding-top: 10px;
+}
+.footer{
+    margin-top: 15px;
+    margin-bottom: 75px;
+    background: white;
+    height: 54px;
+}
+.footer p{
+    float: left;
+    font-style: italic;
+    line-height: 54px;
+    padding-right: 20px;
+}
